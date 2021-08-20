@@ -1,0 +1,86 @@
+*{
+    width: 60%;
+    height: 80%;
+}
+header{
+    height: 20%;
+}
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-basis: 80%;
+    padding: 10px;
+    
+}
+
+.numeros{
+    width: 70%;
+    height: 60%;
+    position: relative;
+    right: 20%;
+    top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    align-items: center;
+    
+}
+
+.operador{
+    width: 20%;
+    height: 60%;
+    position: relative;
+    right: 20%;
+    top: 20%;
+    background-color: grey;
+       
+}
+
+.resultado{
+    position: relative;
+    width: 90%;
+    left: 30%;
+    margin-bottom: 180px;
+    height: 10%;
+    background-color: grey;
+}
+
+.boton{
+   width: 70px;
+   height: 40px;
+   margin: 2px;
+   padding: 1px;
+   border: none;
+   box-shadow: 1px 1px 1px 1px;
+   
+   
+}
+
+.boton_c{
+   width: 50px;
+   height: 50px;
+   margin: 2px;
+   padding: 1px;
+   border-radius: 25px;
+   box-shadow: 1px 1px 1px 1px;
+   outline: none;
+     
+}
+
+.boton:hover{
+    opacity: 50%;
+}
+
+.boton_c:hover{
+    opacity: 50%;
+}
